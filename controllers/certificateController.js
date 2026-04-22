@@ -1,6 +1,6 @@
 // server/controllers/certificateController.js
 const Certificate = require('../models/Certificate');
-const deleteFromCloudinary = require('../utils/deleteimage');
+const deleteFromCloudinary = require('../utils/deleteImage');
 
 // @desc    Get all certificates
 // @route   GET /api/certificates
