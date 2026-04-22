@@ -1,5 +1,5 @@
 const Blog = require('../models/Blog');
-const deleteFromCloudinary = require('../utils/deleteimage');
+const deleteFromCloudinary = require('../utils/deleteImage.js');
 
 // @desc    Get all blogs
 // @route   GET /api/blogs
