@@ -10,7 +10,7 @@ const getAllowedOrigins = () => {
     if (NODE_ENV === 'production') {
       return ['https://yourdomain.com']; // Change to your actual domain
     }
-    return ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173'];
+    return ['http://localhost:5173', 'http://localhost:3000', 'http://127.0.0.1:5173', 'https://www.tayyabmughal.tech/','https://tayyab-client-kubjm3f3g-tayyabmughal7272-7334s-projects.vercel.app/'];
   }
   
   // Split comma-separated origins
